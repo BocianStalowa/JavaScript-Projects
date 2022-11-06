@@ -1,4 +1,4 @@
-function Call_Loop() {
+function Call_Loop() { //This function breaks variable 'Sentence' into letters and prints each letter seperatly
     var Letter = "";
     var Sentence = "This is a sentence"
     let x = 0;
@@ -9,7 +9,7 @@ function Call_Loop() {
     document.getElementById("Loop").innerHTML = Letter;
 }
 
-function for_Loop() {
+function for_Loop() { // function that outputs each element from the array
     var Class = ['Jack', 'Tomasz', 'Aldona']
     var Person = '';
 
@@ -20,14 +20,14 @@ function for_Loop() {
     }
 }
 
-function array_Function() {
+function array_Function() { // function that reads second element in the array and prints it connected with a string
     var Class = ['Jack', 'Tomasz', 'Aldona']
     document.getElementById('Array').innerHTML = "My name is " + Class[1]
 }
 
 const Team = { name: 'Manchester United', country: 'England' }
 
-function constant_function() {
+function constant_function() { //function that tests how const works
     document.getElementById("Constant").innerHTML = 'Name of my favourite team is ' + Team.name;
     Team.name = 'FC Barcelona'
     Team.Stadium = 'Camp Nou'
